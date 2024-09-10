@@ -1,0 +1,21 @@
+# Assignment 2 - CMPT 300
+## Author: Liam Duncan - Student ID: 301476562
+### March 1, 2024
+
+#### Overview:
+The program consists of several modules:
+
+- **main.c:** Acts as a driver, initializing the necessary components and coordinating the flow of execution.
+- **controller.c:** Serves as the core logic of the program, managing lists, sockets, and program termination.
+- **list.h and list.o:** Provided by the instructor, used for managing lists.
+- **write.c:** Responsible for storing messages written by the user into a list.
+- **send.c:** Takes messages from the list populated by the write module and sends them to the intended recipient.
+- **receive.c:** Listens for incoming messages from the other user and adds them to a list.
+- **read.c:** Displays received messages from the other user on the terminal.
+
+#### Known Issues:
+While the implementation works as intended, there are two unresolved issues:
+
+1. **Invalid Free Error:** Upon program termination, attempting to free the list results in an "invalid free" error reported by Valgrind. The exact cause of this error is yet to be determined.
+
+2. **Message Display Issue:** When a user is writing a message to the other while the other is typing it shows up in the middle of what they are typing...
