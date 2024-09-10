@@ -1,7 +1,5 @@
 // send.h
-// Assignment 2 - CMPT 300
-// Liam Duncan - 301476562
-// March 1, 2024
+// Liam Duncan
 
 #ifndef _SEND_H_
 #define _SEND_H_

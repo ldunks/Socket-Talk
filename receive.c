@@ -1,7 +1,5 @@
 // receive.c
-// Assignment 2 - CMPT 300
-// Liam Duncan - 301476562
-// March 1, 2024
+// Liam Duncan
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>

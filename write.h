@@ -1,7 +1,5 @@
 // write.h
-// Assignment 2 - CMPT 300
-// Liam Duncan - 301476562
-// March 1, 2024
+// Liam Duncan
 
 #ifndef _WRITE_H_
 #define _WRITE_H_
